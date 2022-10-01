@@ -28,7 +28,7 @@
 
 ############# Connect to VIcenter
 $vccred = Import-Clixml -Path /Users/erikaerdts/Documents/scripts/vcenter.cred
-Connect-VIServer vcenter.fhict.local -Credential $vccred
+Connect-VIServer vcenter.fhict-int.nl -Credential $vccred
 
 
 ############# Get all VM's from Jan van Rooij, based on the equivalent name of the folder (!)
